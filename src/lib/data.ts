@@ -1,60 +1,53 @@
 export const personalInfo = {
-  name: "Rishikesh S",
-  location: "Coimbatore, India",
-  email: "rkesh2003@gmail.com",
-  github: "https://github.com/rishikesh2003",
-  linkedin: "https://www.linkedin.com/in/rishikeshs/",
+  name: "Lucas H. Tripode",
+  location: "La Plata, Buenos Aires, Argentina",
+  email: "lucas.tripode.6@gmail.com",
+  github: "https://github.com/LucasHTripode",
+  linkedin: "https://www.linkedin.com/in/lucas-tripode/",
 };
 
 export const workExperience = [
   {
-    company: "Chatbyte GmbH",
+    company: "JBKnowledge",
     location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
+    position: "Full-Stack Developer .NET Core, Angular and React",
+    period: "Jan 2024 - Present",
     achievements: [
-      "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
-      "Built a comprehensive admin panel for managing content, user data, and analytics.",
-      "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
-      "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
-      "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
+      "Developed a web application for managing workers compensation policies for insurance companies in the U.S., using an event-driven architecture (Cosmos). The system enables policy generation, data management, and features intuitive user interfaces. Built with Angular 15, .NET Core 8, Azure and Scrum.",
+      "Worked on ongoing improvements and updates to a web application built with .NET Core and React for client data collection, implementing an accessible microfrontend with efficient user interfaces. Used Azure, Cosmos and Scrum."
     ],
   },
   {
-    company: "DevCrew",
-    location: "Coimbatore, India",
-    position: "Software Engineer",
-    period: "Mar 2023 - Mar 2024",
+    company: "Tiarg - Experta Seguros",
+    location: "Remote",
+    position: "Full-Stack Developer .NET Core, React and Angular",
+    period: "Mar 2020 - Mar 2024",
     achievements: [
-      "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
-      "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
+      "Participated in the development of a web application using .NET Core 3.1 and React, contributing to the reengineering of a monolithic system into an event-driven microservices architecture, resulting in a more scalable and maintainable solution. Also handled task estimation, process design, and applied agile methodologies using Jira to plan, track, and improve project efficiency.",
+      "Performed maintenance and ongoing development of a system built with .NET Core 2.0 and Angular 8+ for managing healthcare providers in a workers’ compensation insurance company (ART). Achieved intuitive interfaces and efficient access to information.",
     ],
   },
   {
-    company: "Phoenitags",
-    location: "Coimbatore, India",
-    position: "Software Engineering Intern",
-    period: "Jan 2023 - Mar 2023",
+    company: "InMotion",
+    location: "Remote",
+    position: ".NET Software Developer",
+    period: "Dec 2018 - Mar 2020",
     achievements: [
-      "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
-      "Implemented JavaScript-based features like user authentication and real-time updates.",
+      "Adapted and maintained the FASI insurance system using ASP.NET MVC 4 with Razor views on .NET Framework 4.5, WCF, C#, Oracle, and front-end technologies, enabling integration with the core system and delivering scalable, user-friendly solutions for clients like Galicia and Orígenes.",
+      "Built and maintained desktop modules using WinForms to support internal processes and business workflows for clients Swiss Medical and Supervielle.",
     ],
   },
 ];
 
 export const education = [
   {
-    institution: "Sri Krishna College of Engineering and Technology",
-    location: "Coimbatore, India",
-    degree: "B Tech Information Technology",
-    period: "Jun 2021 - Jun 2025",
+    institution: "National University of the South",
+    location: "Bahia Blanca, Buenos Aires, Argentina",
+    degree: "Computer Systems Engineering",
+    period: "Jan 2005 - Jun 2013",
     achievements: [
-      "President of the Department of Information Technology",
-      "G20 student delegate",
-      "Organized multiple technical workshops and events",
-      "Represented my college in multiple national and international hackathons and won.",
+      "Bachelor Degree in Computer Systems Engineering",
+      "Final Project, March 2012 - June 2013, Implementation of a web application to calculate the optimal path given n points with algorithms"
     ],
   },
 ];
