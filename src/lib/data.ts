@@ -13,6 +13,7 @@ export const workExperience = [
     position: "Full-Stack Developer .NET Core, Angular and React",
     period: "Jan 2024 - Present",
     achievements: [
+      "Developed enterprise applications for the U.S. insurance industry focused on policy management and data collection, using modern front-end and back-end technologies with Azure and Cosmos DB.",
       "Developed a web application for managing workers compensation policies for insurance companies in the U.S., using an event-driven architecture (Cosmos). The system enables policy generation, data management, and features intuitive user interfaces. Built with Angular 15, .NET Core 8, Azure and Scrum.",
       "Worked on ongoing improvements and updates to a web application built with .NET Core and React for client data collection, implementing an accessible microfrontend with efficient user interfaces. Used Azure, Cosmos and Scrum."
     ],
@@ -23,6 +24,7 @@ export const workExperience = [
     position: "Full-Stack Developer .NET Core, React and Angular",
     period: "Mar 2020 - Mar 2024",
     achievements: [
+      "Worked on scalable insurance systems, contributing to the transformation from monolithic to microservices architecture, improving system maintainability and performance.",
       "Participated in the development of a web application using .NET Core 3.1 and React, contributing to the reengineering of a monolithic system into an event-driven microservices architecture, resulting in a more scalable and maintainable solution. Also handled task estimation, process design, and applied agile methodologies using Jira to plan, track, and improve project efficiency.",
       "Performed maintenance and ongoing development of a system built with .NET Core 2.0 and Angular 8+ for managing healthcare providers in a workers’ compensation insurance company (ART). Achieved intuitive interfaces and efficient access to information.",
     ],
@@ -33,6 +35,7 @@ export const workExperience = [
     position: ".NET Software Developer",
     period: "Dec 2018 - Mar 2020",
     achievements: [
+      "Contributed to insurance platform modernization projects for major financial and insurance clients, enabling seamless integration and enhancing system usability.",
       "Adapted and maintained the FASI insurance system using ASP.NET MVC 4 with Razor views on .NET Framework 4.5, WCF, C#, Oracle, and front-end technologies, enabling integration with the core system and delivering scalable, user-friendly solutions for clients like Galicia and Orígenes.",
       "Built and maintained desktop modules using WinForms to support internal processes and business workflows for clients Swiss Medical and Supervielle.",
     ],
@@ -47,39 +50,76 @@ export const education = [
     period: "Jan 2005 - Jun 2013",
     achievements: [
       "Bachelor Degree in Computer Systems Engineering",
-      "Final Project, March 2012 - June 2013, Implementation of a web application to calculate the optimal path given n points with algorithms"
+      "Final Project, March 2012 - June 2013, Implementation of a web application to calculate the optimal path given n points with algorithms",
+      "Developed a car racing game using a graphics engine and implemented algorithms for heuristic-based driving",
+      "Development of a 1-to-1 mobile Bluetooth chat with support for adding users to the conversation."
     ],
   },
 ];
 export const skills = {
   programmingLanguages: [
-    "TypeScript",
-    "JavaScript",
-    "Python",
-    "C++",
-    "Java",
-    "Solidity",
+    "C#", 
+    ".NET Core (2.0–8.0)", 
+    "ASP.NET MVC (4-5)",
+    "VB.NET",
+    "Javascript",
+    "Typescript",
+    "HTML5", 
+    "CSS3",
+    "SQL", 
+    "Oracle",
+    "WinForms",
+    "Razor Pages",
   ],
   frontendDevelopment: [
-    "Nextjs",
-    "Reactjs",
-    "React Native",
-    "Shadcn UI",
-    "Tailwind CSS",
-    "HTML",
-    "CSS",
+    "Angular (2-15)", 
+    "AngularJS", 
+    "React", 
+    "Hooks",
+    "Angular Material",
+    "Material-UI",
+    "Kendo UI",
+    "Tailwind",
+    "Bootstrap",
+    "Axios",
+    "JQuery",
+    "DevExpress",
   ],
-  backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
-  cloudAndDevOps: ["AWS"],
+  backendDevelopment: [
+    "ASP.NET Core", 
+    "Restful API’S",
+    "WCF", 
+    "Ocelot",
+    "Entity Framework Core",
+    "Dapper",
+    "LINQ"
+  ],
+  databaseAndStorage: [
+    "SQL Server", 
+    "Oracle",
+    "Cosmos DB"
+  ],
+  cloudAndDevOps: [
+    "Azure",
+    "Azure APP Services", 
+    "Azure SQL",
+    "Azure Bob Services",
+    "Azure DevOps", 
+    "GIT", 
+    "TFS", 
+    "Docker", 
+    "Jenkins", 
+    "BitBucket"
+  ],
   toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
-    "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",
+    "SonarQube",
+    "Postman",
+    "Swagger",
+    "Jira",
+    "Copilot",
+    "ChatGPT",
+    "Elasticsearch",
+    "Kibana"
   ],
 };
 
